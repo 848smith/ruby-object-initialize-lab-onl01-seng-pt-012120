@@ -5,6 +5,7 @@ class Dog
       @breed = "Mutt"
     else
       @breed = breed
+    end
   end
   
   def name=(new_name)
